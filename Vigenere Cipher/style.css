@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+
+
+}
+main{    
+    margin-top: 10rem;
+    min-height: 100vh;
+    
+    
+}
+.plainCipher,
+.key,
+.encryptedCipher{
+   width: 50%;
+}
+.encryption,
+.encrypted{
+    margin: 10px;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label input{    
+    width: 100%;
+    padding: 0.7em;
+    margin-top: 1em;
+    
+}
+.key{
+    display: flex;
+    flex-direction: column;
+}
+.text-center{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 10px;
+}
+button{
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+    padding: 0.5em;
+    width: 25%;
+    letter-spacing: 5px;
+    font-size: 1em;
+    font-weight: 800;
+    border-radius: 5px;
+    background-color: #e17c3d;
+
+}
